@@ -299,7 +299,7 @@ TalentPulse-AI/
 
 ---
 
-# 🚀 Installation
+ 🚀 Installation
 
 ## Prerequisites
 
