@@ -363,21 +363,21 @@ Replace these image paths with your actual screenshots after uploading them to t
 
 ## 🏠 Home Dashboard
 
-![TalentPulse AI Dashboard](screenshots/home.png)
+![TalentPulse AI Dashboard](screenshots/home.png.png)
 
 
 ## 📊 Resume Analytics
 
-![Resume Analytics](screenshots/analytics.png)
+![Resume Analytics](screenshots/analytics.png.png)
 
 ## 🎯 Job Matches
 
-![Job Matches](screenshots/job-matches.png)
+![Job Matches](screenshots/job-matches.png.png)
 
 
 ## ⚡ ATS Optimizer
 
-![ATS Optimizer](screenshots/ats-optimizer.png)
+![ATS Optimizer](screenshots/ats-optimizer.png.png)
 
 ---
 
