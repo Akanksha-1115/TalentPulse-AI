@@ -442,7 +442,7 @@ This project demonstrates practical implementation of:
 
 # 👩‍💻 Author
 
-**Your Name**
+Akanksha Pandey 
 
 B.Tech – Computer Science & Engineering
 
