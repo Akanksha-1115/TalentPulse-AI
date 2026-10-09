@@ -216,7 +216,7 @@ df_jobs, vectorizer, job_vectors, load_errors = get_ml_system()
 # ----------------------------------------------------------------------
 with st.sidebar:
     st.markdown("### 💼 TalentPulse AI")
-    st.caption("College BTech CSE Mini-Project | TF-IDF & Cosine Similarity Job Recommendation Engine")
+    st.caption("TF-IDF & Cosine Similarity Job Recommendation Engine")
     st.markdown("---")
 
     st.markdown("#### 🔍 Job Search Filters")
@@ -329,7 +329,7 @@ st.markdown("""
         An intelligent machine learning system matching candidate resumes with verified technical and engineering
         job profiles using TF-IDF vector space modeling, cosine similarity, and skill overlap scoring.
     </div>
-    <span class="tp-badge-banner">BTech CSE Mini-Project • Real O*NET 31.0 Database • Content-Based ML Engine</span>
+    <span class="tp-badge-banner">BTech CSE Mini-Project </span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -345,7 +345,7 @@ if load_errors:
 # 7. SECTION 1: UPLOAD RESUME
 # ----------------------------------------------------------------------
 st.markdown('<div class="tp-card">', unsafe_allow_html=True)
-st.markdown('<div class="tp-card-header"><span>Step 1: Resume Submission</span><span>PDF or TXT</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="tp-card-header"><span> Resume Submission</span><span>PDF or TXT</span></div>', unsafe_allow_html=True)
 
 resume_text = ""
 resume_source_name = ""
@@ -413,7 +413,7 @@ if resume_text:
 
     with col_sum:
         st.markdown('<div class="tp-card">', unsafe_allow_html=True)
-        st.markdown('<div class="tp-card-header"><span>Step 2: Resume Summary</span><span>Extracted Details</span></div>', unsafe_allow_html=True)
+        st.markdown('<div class="tp-card-header"><span> Resume Summary</span><span>Extracted Details</span></div>', unsafe_allow_html=True)
         
         st.markdown(f"**Identified Domain:** `{domain_display_names.get(detected_domain, detected_domain)}`")
         st.markdown(f"**Detected Education:** {metadata['education']}")
@@ -428,7 +428,7 @@ if resume_text:
 
     with col_sk:
         st.markdown('<div class="tp-card">', unsafe_allow_html=True)
-        st.markdown('<div class="tp-card-header"><span>Step 3: Detected Skills & Keywords</span><span>Ontology Match</span></div>', unsafe_allow_html=True)
+        st.markdown('<div class="tp-card-header"><span> Detected Skills & Keywords</span><span>Ontology Match</span></div>', unsafe_allow_html=True)
         
         if detected_skills:
             badges_html = "".join([f'<span class="skill-badge">{s}</span>' for s in detected_skills])
@@ -456,7 +456,7 @@ if resume_text:
 
     st.markdown('<div class="tp-card">', unsafe_allow_html=True)
     header_right_info = f"Showing Top {len(recommendations)} of {profile_summary.get('total_jobs_matching_filter', 0)} Matched Roles"
-    st.markdown(f'<div class="tp-card-header"><span>Step 4: Recommended Jobs & Ranking</span><span>{header_right_info}</span></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="tp-card-header"><span> Recommended Jobs & Ranking</span><span>{header_right_info}</span></div>', unsafe_allow_html=True)
 
     if not recommendations:
         st.warning(
@@ -542,7 +542,6 @@ else:
 st.markdown("""
 <div class="tp-footer">
     <strong>TalentPulse AI</strong> – Resume Based Job Recommendation System<br>
-    Final Year B.Tech Computer Science & Engineering Mini-Project • Built with Streamlit, Scikit-Learn & PyMuPDF<br>
-    Verified Dataset: O*NET 31.0 Database (U.S. Department of Labor) • MIT & CC BY 4.0 Open Licensing
+    
 </div>
 """, unsafe_allow_html=True)
