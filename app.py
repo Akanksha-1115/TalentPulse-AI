@@ -216,7 +216,7 @@ df_jobs, vectorizer, job_vectors, load_errors = get_ml_system()
 # ----------------------------------------------------------------------
 with st.sidebar:
     st.markdown("### 💼 TalentPulse AI")
-    st.caption("TF-IDF & Cosine Similarity Job Recommendation Engine")
+    
     st.markdown("---")
 
     st.markdown("#### 🔍 Job Search Filters")
@@ -325,11 +325,9 @@ SAMPLE_RESUME_TEXTS = {
 st.markdown("""
 <div class="tp-header">
     <div class="tp-title">TalentPulse AI – Resume Based Job Recommendation System</div>
-    <div class="tp-subtitle">
-        An intelligent machine learning system matching candidate resumes with verified technical and engineering
-        job profiles using TF-IDF vector space modeling, cosine similarity, and skill overlap scoring.
-    </div>
-    <span class="tp-badge-banner">BTech CSE Mini-Project </span>
+    
+    
+    
 </div>
 """, unsafe_allow_html=True)
 
