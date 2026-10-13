@@ -325,9 +325,6 @@ SAMPLE_RESUME_TEXTS = {
 st.markdown("""
 <div class="tp-header">
     <div class="tp-title">TalentPulse AI – Resume Based Job Recommendation System</div>
-    
-    
-    
 </div>
 """, unsafe_allow_html=True)
 
